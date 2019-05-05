@@ -12,7 +12,7 @@ $discord = new Discord([
  
 $discord->on('ready', function ($discord) { 
   $discord->on('message', function ($message, $discord) {
-    $con=mysqli_connect("remotemysql.com","LSIGppQrpS","NUj7oT4Hpb","LSIGppQrpS");
+    $con=mysqli_connect("remotemysql.com","o0LTXYuQII","WbVXwbo7Wo","o0LTXYuQII");
 // Check connection
 if (mysqli_connect_errno())
   {
